@@ -1,5 +1,5 @@
 from engine import Engine
-from battery import Battery
+from batteries.battery import Battery
 
 class Car(Engine, Battery):
     def __init__(self, engine, battery, tire):
